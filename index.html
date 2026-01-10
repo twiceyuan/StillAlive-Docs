@@ -15,6 +15,12 @@
             <nav class="nav">
                 <a href="#features">功能</a>
                 <a href="https://github.com/twiceyuan/StillAlive-Docs" target="_blank" class="github-link">GitHub</a>
+                <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+                    <svg class="theme-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path class="sun-icon" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"></path>
+                        <path class="moon-icon" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
             </nav>
         </div>
     </header>
@@ -31,11 +37,7 @@
                     </div>
                 </div>
                 <div class="hero-visual">
-                    <picture>
-                        <source srcset="images/light-screenshot.png" media="(prefers-color-scheme: light)">
-                        <source srcset="images/dark-screenshot.png" media="(prefers-color-scheme: dark)">
-                        <img src="images/dark-screenshot.png" alt="Still Alive 应用截图" class="app-screenshot">
-                    </picture>
+                    <img src="images/dark-screenshot.png" alt="Still Alive 应用截图" class="app-screenshot" id="appScreenshot">
                 </div>
             </div>
         </section>
@@ -79,7 +81,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Still Alive Project. Licensed under Apache 2.0.</p>
+            <p>&copy; 2026 Still Alive Project.</p>
             <p>Designed with ❤️ for safety.</p>
         </div>
     </footer>
