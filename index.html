@@ -31,7 +31,11 @@
                     </div>
                 </div>
                 <div class="hero-visual">
-                    <img src="images/app-screenshot.png" alt="Still Alive 应用截图" class="app-screenshot">
+                    <picture>
+                        <source srcset="images/light-screenshot.png" media="(prefers-color-scheme: light)">
+                        <source srcset="images/dark-screenshot.png" media="(prefers-color-scheme: dark)">
+                        <img src="images/dark-screenshot.png" alt="Still Alive 应用截图" class="app-screenshot">
+                    </picture>
                 </div>
             </div>
         </section>
