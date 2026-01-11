@@ -22,7 +22,7 @@ function updateThemeIcon(theme) {
 function updateScreenshot(theme) {
     const screenshot = document.getElementById('appScreenshot');
     if (screenshot) {
-        screenshot.src = theme === 'dark' ? 'images/dark-screenshot.png' : 'images/light-screenshot.png';
+        screenshot.src = theme === 'dark' ? 'images/dark-screenshot.jpg' : 'images/light-screenshot.jpg';
     }
 }
 
