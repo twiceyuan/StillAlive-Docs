@@ -1,0 +1,10 @@
+{
+  "version": "1.1.2",
+  "versionCode": 4,
+  "releaseDate": "2026-01-30",
+  "apkFile": "stillalive-1.1.2.apk",
+  "changelog": [
+    "Added English localization",
+    "Fixed check-in button text alignment"
+  ]
+}
