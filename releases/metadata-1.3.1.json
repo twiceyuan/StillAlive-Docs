@@ -1,0 +1,11 @@
+{
+  "version": "1.3.1",
+  "versionCode": 8,
+  "releaseDate": "2026-02-06",
+  "apkFile": "stillalive-1.3.1.apk",
+  "changelog": [
+    "优化自动打卡逻辑，避免跨午夜误判",
+    "消除自动打卡后重复的签到通知",
+    "代码风格统一：应用 Spotless 格式化"
+  ]
+}
